@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Custom CSS Starts Here */
+
+header {
+    background-color: #5284C1;
+    height: 400px;
+}
+
+
+.header-container, .article-container {
+    max-width: 1200px;
+    margin: 0px auto 40px;
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+.second-section {
+    background-color: #5284C1;
+}
+
+.head-section {
+    margin: 10px auto;
+    /* border: 2px solid red; */
+}
+
+.brand {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 45%;
+    margin: 0px 1%;
+}
+
+.nav-links {
+    display: inline-block;
+    width: 45%;
+    margin: 0px 1%;
+}
+
+.nav-links ul {
+    text-align: right;
+}
+
+.nav-links li {
+    display: inline;
+    padding: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.page-title {
+    text-align: center;
+    color: aliceblue;
+}
+
+.page-title h1 {
+    font-size: 48px;
+    padding: 80px 0px ;
+}
+
+.page-title p, .people-title p {
+    font-size: 18px;
+}
+
+.single-article {
+    display: inline-block;
+    width: 30%;
+    margin: 0px 1%;
+
+}
+
+.single-article >* {
+    padding: 10px;
+}
+
+.single-article h2{
+    font-size: 30px;
+    color: #5284C1;
+}
+
+.single-article p{
+    font-size: 19px;
+    padding: 10px 0px;
+}
+
+.more-button {
+    display: inline;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: auto 10px;
+    background-color: #5284C1;
+    color: aliceblue;
+}
+
+.people-title {
+    text-align: center;
+    padding: 12px;
+    color: white;
+}
+
+.people-row {
+
+    height: 600px;
+}
+
+.people-title h2 {
+    font-size: 40px;
+    padding: 10px 0px 40px 0px;
+}
+
+.people-card {
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    margin: 20px 2%;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+.people-card >* {
+    padding: 10px;
+    color: white;
+}
+
+.profile-image img {
+
+    border-radius: 100px;
+    
+}
+
+.people-card .name {
+    font-size: 20px;
+}
+
+
+.last-article {
+    max-width: 1200px;
+    height: 600px;
+    /* border: 1px solid red;    */
+    margin: 0 auto; 
+}
+
+.down-article {
+    width: 43%;
+    margin: 2px 1%;
+    display: inline-block;
+}
+
+.articles-container .last-heading {
+    font-size: 30px;
+    color: #5284C1;
+    text-align: center;
+    padding: 10px;
+}
+
+.articles-container .last-para {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.down-article .article-image img{
+    display: block;
+    width: 500px;
+    height: 200px;
+}
+
+.down-article >* {
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+.article-seperator .article-heading {
+    font-size: 30px;
+    
+}
+
+.article-down {
+    display: inline;
+    margin: 10px 2%;
+}
+
+.article-seperator {
+    padding: 50px 0px;
+}
+
+.last-more {
+    background-color: blue;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+hr {
+    width: 1200px;
+}
+
+footer {
+    width: 1200px;
+    height: 60px;
+    margin: 0px auto;
+}
+footer div {
+    display: inline-block;
+    width: 44%;
+    margin: 0px 2%;
+    height: 60px;
+    /* background-color: red; */
+    vertical-align: middle;
+    line-height: 60px;
+    text-align: left;
+}
+
+
+footer .social-media-links  {
+    text-align: right;
+}
+
+
+footer .social-media-links li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    
+
+}
